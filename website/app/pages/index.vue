@@ -107,7 +107,7 @@ const fetchInfectionData = async () => {
 
 	try {
 		const response = await $fetch<InfectionDataResponse>(`${apiBaseUrl}/infection-data`, {
-
+			query: Object.fromEntries(buildSearchParams())
 		})
 
 		records.value = response.data
