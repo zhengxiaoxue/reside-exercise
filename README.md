@@ -56,3 +56,7 @@ Website:
 Data/Storage:
 
 - SQLite database seeded from local JSON storage files
+
+## Outstanding work
+
+1. Page navigation is missing.
