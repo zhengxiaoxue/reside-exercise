@@ -1,0 +1,16 @@
+# Dependencies
+node_modules/
+
+# SQLite database (generated at runtime by seed)
+*.db
+*.db-shm
+*.db-wal
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+logs/

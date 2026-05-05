@@ -1,0 +1,20 @@
+# Dependencies
+node_modules/
+
+# Nuxt build & output
+.nuxt/
+.output/
+dist/
+
+# Cache
+.cache/
+.parcel-cache/
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+logs/
